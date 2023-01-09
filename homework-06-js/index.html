@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework06</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>
+        HOMEWORK
+CREATE A DYNAMIC TABLE
+Write a Javascript function that will dynamiclly create a table
+User should input the number of Colums and Rows
+In every table cell print which row and column it is (ex. Row-3 Column-1)
+Don't forget to use google! :)
+    </p>
+    <main>
+        <div class="container">
+            <div class="inputs">
+                <form action="">
+                    <label for="col">Columns: </label>
+                    <input type="range" name="col" id="col" min="1" max="15" value="1">
+                    <label for="row">Rows: </label>
+                    <input type="range" name="row" id="row" min="1" max="15" value="1">
+                </form>
+            </div>
+            <div class="table">
+                <table>
+                    <tbody id="tableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
